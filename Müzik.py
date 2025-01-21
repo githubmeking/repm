@@ -78,14 +78,14 @@ LOGGER = logging.getLogger("Sistem")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", 0))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-START_IMAGE_URL = getenv("START_IMAGE_URL", None)
+API_ID = int(getenv("API_ID", 20213849))
+API_HASH = getenv("API_HASH", "e97df0eca2a9531c80202c1a7d3f5721")
+BOT_TOKEN = getenv("BOT_TOKEN", "6591274198:AAFFsE0pTw3tUE9kq49QjUBarwLaQTdjurY")
+STRING_SESSION = getenv("STRING_SESSION", "AgGp0DoAORsnr8dQXfqULvasOBdqq4ElVzaNuN92so3kn1cHvBuRloD8Qj8nO-QP7ZSsl8m5DJH-r1m_M7mlIrve_T0XnzDrLnlnudOju72c7-r-BbXyFy8ojvcxsH1ZOlxs5O6NJuUfc-meaOOI3phKKHPQPhWMHYpBi62bXES-vA3LFme8QWbCfOecye3vhHlfzppewO6RymNhZAjDercPKMAWvrvA7XK8zuwEwQWWZZFYQcMsR4up7JKjabrxn7ZxZzcmmtkKFRAM3RKf63T39whsiOjjIL33OvdcHVUnjSPfQOaHRAYRlfR7uKS229C4VMoD_MKUqAG1ZbB_Vyjd58TfuQAAAAGVYeFmAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://sadbot19033:sadbotbey@cluster0.01dwa.mongodb.net/")
+OWNER_ID = int(getenv("OWNER_ID", 6180151150))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 1001948236041))
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://te.legra.ph/file/f8ba75bdbb9931cbc8229.jpg")
 
 
 # Memory Database
