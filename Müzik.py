@@ -78,7 +78,7 @@ LOGGER = logging.getLogger("Sistem")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 20213849))
+API_ID = int(getenv("API_ID", "20213849"))
 API_HASH = getenv("API_HASH", "e97df0eca2a9531c80202c1a7d3f5721")
 BOT_TOKEN = getenv("BOT_TOKEN", "6591274198:AAFFsE0pTw3tUE9kq49QjUBarwLaQTdjurY")
 STRING_SESSION = getenv("STRING_SESSION", "AgGp0DoAORsnr8dQXfqULvasOBdqq4ElVzaNuN92so3kn1cHvBuRloD8Qj8nO-QP7ZSsl8m5DJH-r1m_M7mlIrve_T0XnzDrLnlnudOju72c7-r-BbXyFy8ojvcxsH1ZOlxs5O6NJuUfc-meaOOI3phKKHPQPhWMHYpBi62bXES-vA3LFme8QWbCfOecye3vhHlfzppewO6RymNhZAjDercPKMAWvrvA7XK8zuwEwQWWZZFYQcMsR4up7JKjabrxn7ZxZzcmmtkKFRAM3RKf63T39whsiOjjIL33OvdcHVUnjSPfQOaHRAYRlfR7uKS229C4VMoD_MKUqAG1ZbB_Vyjd58TfuQAAAAGVYeFmAA")
